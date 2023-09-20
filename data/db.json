@@ -1,0 +1,39 @@
+{
+  "notes": [
+    {
+      "title": "My First Note!",
+      "body": "Hello World!",
+      "category": "Work",
+      "date": "20/09/2023",
+      "id": 1
+    },
+    {
+      "title": "new note",
+      "body": "adalfdsnl",
+      "category": "work",
+      "date": "20/09/2023",
+      "id": 3
+    },
+    {
+      "title": "Hello",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet libero dignissim, ornare leo rutrum, porttitor arcu. In sit amet felis a turpis pharetra mollis. Ut vitae viverra orci. Aenean ligula nibh, mattis eu enim non, convallis luctus ante. Aliquam viverra malesuada mauris, vel volutpat mi tincidunt ac. Maecenas ante quam, bibendum quis massa non, iaculis efficitur erat. Quisque mattis varius condimentum. Maecenas dapibus vehicula eros sit amet pretium. Duis orci dui, porta non blandit id, varius sed justo. Integer facilisis sollicitudin lectus ornare facilisis. Suspendisse varius quis velit tempus ornare. Vestibulum fermentum mi mi, non dictum sem mattis eleifend. Donec consequat ante quis nunc congue, vitae auctor massa egestas",
+      "category": "Work",
+      "date": "21/09/2023",
+      "id": 6
+    },
+    {
+      "title": "Work Work!!",
+      "body": "Hey goto uni!!",
+      "category": "Work",
+      "date": "21/09/2023",
+      "id": 7
+    },
+    {
+      "title": "Notes Hub!",
+      "body": "Notes Hub is a React app that allows you to create, edit, and delete notes with ease. Notes Hub is a simple and elegant solution for managing your notes in one place.",
+      "category": "Other",
+      "date": "21/09/2023",
+      "id": 8
+    }
+  ]
+}
