@@ -23,6 +23,7 @@ const Layout = ({children}) => {
     return ( 
         <Container sx={{display:'flex'}}>
             <Drawer
+                open={false}
                 variant="permanent"
                 anchor="left"
                 sx={{

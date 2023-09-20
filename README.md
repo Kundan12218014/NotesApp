@@ -23,20 +23,32 @@ To run this project locally, you need to have Node.js and npm installed on your 
 
 Clone this repository to your local machine:
 
-`git clone https://github.com/sajitha-tj/Notes-Hub.git`
+```bash
+git clone https://github.com/sajitha-tj/Notes-Hub.git
+```
 
 Go to the project directory:
-`cd notes-hub`
+
+```bash
+cd notes-hub
+```
+
 Install the dependencies:
 
-`npm install`
+```bash
+npm install
+```
 
 Set up the json server:
 
-`npx json-server --watch data/db.json --port 8000`
+```bash
+npx json-server --watch data/db.json --port 8000
+```
 
 Start the development server:
 
-`npm start`
+```bash
+npm start
+```
 
 Open http://localhost:3000 to view the app in the browser.

@@ -4,7 +4,7 @@ import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined';
 import { CardActions, CardContent, Typography } from '@mui/material';
-import { PushPinOutlined } from '@mui/icons-material';
+import { EditNoteOutlined } from '@mui/icons-material';
 
 
 const Note = ({note}) => {
@@ -34,7 +34,7 @@ const Note = ({note}) => {
             </CardContent>
             <CardActions>
                 <IconButton aria-label='Pin to top'>
-                    <PushPinOutlined/>
+                    <EditNoteOutlined/>
                 </IconButton>
                 <Typography variant='body2' flexGrow={1} textAlign={'right'}>
                     {note.date}

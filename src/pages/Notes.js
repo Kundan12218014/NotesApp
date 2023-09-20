@@ -1,21 +1,29 @@
 import { Container, Grid } from "@mui/material";
 import Note from "../components/Note";
 import useFetch from "../Hooks/useFetch";
+import Masonry from "react-masonry-css";
 
+const breakpointColumnsObj = {
+    default: 3,
+    1000: 2,
+    750: 1
+  };
 
 const Notes = () => {
     const {data:notes, isPending, error} = useFetch('http://localhost:8000/notes');
 
     return ( 
-        <Container sx={{mt:2}}>
-            <Grid container spacing={2}>
-                {notes && notes.map(note => (
-                    <Grid item md={4} sm={12} key={note.id}>
-                        <Note note={note}/>
-                    </Grid>
-                ))}
-            </Grid>
-        </Container>
+        <Masonry
+            breakpointCols={breakpointColumnsObj}
+            className="my-masonry-grid"
+            columnClassName="my-masonry-grid_column"
+            >
+            {notes && notes.map(note => (
+                <div key={note.id}>
+                    <Note note={note}/>
+                </div>
+            ))}
+        </Masonry>
      );
 }
  
