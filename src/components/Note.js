@@ -36,7 +36,7 @@ const Note = ({note}) => {
                 <IconButton aria-label='Pin to top'>
                     <EditNoteOutlined/>
                 </IconButton>
-                <Typography variant='body2' flexGrow={1} textAlign={'right'}>
+                <Typography variant='caption' flexGrow={1} textAlign={'right'}>
                     {note.date}
                 </Typography>
             </CardActions>
