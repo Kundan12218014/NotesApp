@@ -24,7 +24,7 @@ To run this project locally, you need to have Node.js and npm installed on your 
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/sajitha-tj/Notes-Hub.git
+https://github.com/Kundan12218014/NotesApp.git
 ```
 
 Go to the project directory:
